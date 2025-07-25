@@ -185,3 +185,6 @@ go.work.sum
 # typescript
 next-env.d.ts
 
+# IDE files
+.idea
+.vscode

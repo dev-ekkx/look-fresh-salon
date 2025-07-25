@@ -4,24 +4,23 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-    --radius: 0.35rem;
     --background: oklch(1 0 0);
-    --foreground: oklch(0.1450 0 0);
+    --foreground: oklch(0.2795 0.0368 260.0300);
     --card: oklch(1 0 0);
     --card-foreground: oklch(0.1450 0 0);
     --popover: oklch(1 0 0);
     --popover-foreground: oklch(0.1450 0 0);
-    --primary: oklch(0.8705 0.1205 79);
-    --primary-foreground: oklch(0.9850 0 0);
+    --primary: oklch(0.7686 0.1647 70.0800);
+    --primary-foreground: oklch(0.9846 0.0017 247.8400);
     --secondary: oklch(0.9700 0 0);
-    --secondary-foreground: oklch(0.2050 0 0);
+    --secondary-foreground: oklch(0.2781 0.0296 256.8500);
     --muted: oklch(0.9700 0 0);
     --muted-foreground: oklch(0.5560 0 0);
     --accent: oklch(0.9700 0 0);
-    --accent-foreground: oklch(0.2050 0 0);
+    --accent-foreground: oklch(0.2795 0.0368 260.0300);
     --destructive: oklch(0.5770 0.2450 27.3250);
     --destructive-foreground: oklch(1 0 0);
-    --border: oklch(0.9220 0 0);
+    --border: oklch(0.9276 0.0058 264.5300);
     --input: oklch(0.9220 0 0);
     --ring: oklch(0.7080 0 0);
     --chart-1: oklch(0.8100 0.1000 252);
@@ -40,24 +39,27 @@
     --font-sans: Montserrat, sans-serif;
     --font-serif: Montserrat, sans-serif;
     --font-mono: Montserrat, sans-serif;
-    --shadow-2xs: 0 1px 6.5px 0px hsl(0 0% 0% / 0.09);
-    --shadow-xs: 0 1px 6.5px 0px hsl(0 0% 0% / 0.09);
-    --shadow-sm: 0 1px 6.5px 0px hsl(0 0% 0% / 0.17), 0 1px 2px -1px hsl(0 0% 0% / 0.17);
-    --shadow: 0 1px 6.5px 0px hsl(0 0% 0% / 0.17), 0 1px 2px -1px hsl(0 0% 0% / 0.17);
-    --shadow-md: 0 1px 6.5px 0px hsl(0 0% 0% / 0.17), 0 2px 4px -1px hsl(0 0% 0% / 0.17);
-    --shadow-lg: 0 1px 6.5px 0px hsl(0 0% 0% / 0.17), 0 4px 6px -1px hsl(0 0% 0% / 0.17);
-    --shadow-xl: 0 1px 6.5px 0px hsl(0 0% 0% / 0.17), 0 8px 10px -1px hsl(0 0% 0% / 0.17);
-    --shadow-2xl: 0 1px 6.5px 0px hsl(0 0% 0% / 0.43);
+    --radius: 0.35rem;
+    --shadow-2xs: 0 1px 5.5px 0px hsl(0 0% 0% / 0.09);
+    --shadow-xs: 0 1px 5.5px 0px hsl(0 0% 0% / 0.09);
+    --shadow-sm: 0 1px 5.5px 0px hsl(0 0% 0% / 0.17), 0 1px 2px -1px hsl(0 0% 0% / 0.17);
+    --shadow: 0 1px 5.5px 0px hsl(0 0% 0% / 0.17), 0 1px 2px -1px hsl(0 0% 0% / 0.17);
+    --shadow-md: 0 1px 5.5px 0px hsl(0 0% 0% / 0.17), 0 2px 4px -1px hsl(0 0% 0% / 0.17);
+    --shadow-lg: 0 1px 5.5px 0px hsl(0 0% 0% / 0.17), 0 4px 6px -1px hsl(0 0% 0% / 0.17);
+    --shadow-xl: 0 1px 5.5px 0px hsl(0 0% 0% / 0.17), 0 8px 10px -1px hsl(0 0% 0% / 0.17);
+    --shadow-2xl: 0 1px 5.5px 0px hsl(0 0% 0% / 0.43);
+    --tracking-normal: 0em;
+    --spacing: 0.25rem;
 }
 
 .dark {
-    --background: oklch(0.1450 0 0);
+    --background: oklch(0 0 0);
     --foreground: oklch(0.9850 0 0);
     --card: oklch(0.2050 0 0);
     --card-foreground: oklch(0.9850 0 0);
     --popover: oklch(0.2690 0 0);
     --popover-foreground: oklch(0.9850 0 0);
-    --primary: oklch(0.8705 0.1205 79);
+    --primary: oklch(0.7686 0.1647 70.0800);
     --primary-foreground: oklch(1 0 0);
     --secondary: oklch(0.2690 0 0);
     --secondary-foreground: oklch(0.9850 0 0);
@@ -83,18 +85,6 @@
     --sidebar-accent-foreground: oklch(0.9850 0 0);
     --sidebar-border: oklch(0.2750 0 0);
     --sidebar-ring: oklch(0.4390 0 0);
-    --font-sans: Montserrat, sans-serif;
-    --font-serif: Montserrat, sans-serif;
-    --font-mono: Montserrat, sans-serif;
-    --radius: 0.3rem;
-    --shadow-2xs: 0 1px 6.5px 0px hsl(0 0% 0% / 0.09);
-    --shadow-xs: 0 1px 6.5px 0px hsl(0 0% 0% / 0.09);
-    --shadow-sm: 0 1px 6.5px 0px hsl(0 0% 0% / 0.17), 0 1px 2px -1px hsl(0 0% 0% / 0.17);
-    --shadow: 0 1px 6.5px 0px hsl(0 0% 0% / 0.17), 0 1px 2px -1px hsl(0 0% 0% / 0.17);
-    --shadow-md: 0 1px 6.5px 0px hsl(0 0% 0% / 0.17), 0 2px 4px -1px hsl(0 0% 0% / 0.17);
-    --shadow-lg: 0 1px 6.5px 0px hsl(0 0% 0% / 0.17), 0 4px 6px -1px hsl(0 0% 0% / 0.17);
-    --shadow-xl: 0 1px 6.5px 0px hsl(0 0% 0% / 0.17), 0 8px 10px -1px hsl(0 0% 0% / 0.17);
-    --shadow-2xl: 0 1px 6.5px 0px hsl(0 0% 0% / 0.43);
 }
 
 @theme inline {
@@ -148,11 +138,6 @@
     --shadow-lg: var(--shadow-lg);
     --shadow-xl: var(--shadow-xl);
     --shadow-2xl: var(--shadow-2xl);
-
-    /*Custom*/
-    --background-image-onboarding-sm: url('/images/onboarding-sm.jpg');
-    --background-image-onboarding-lg: url('/images/onboarding-lg.jpg');
-    --background-image-auth: url('/images/auth-bg.jpg');
 }
 
 /*---break---*/
